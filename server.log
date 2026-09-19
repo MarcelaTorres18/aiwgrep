@@ -1,0 +1,100 @@
+2026-09-15 00:00:32 [INFO] auth-service: Scheduled job started
+2026-09-15 00:01:04 [INFO] scheduler: Cache refreshed
+2026-09-15 00:01:49 [ERROR] db-connector: Error processing payment: gateway declined
+2026-09-15 00:02:17 [INFO] user-api: Session created
+2026-09-15 00:02:47 [INFO] user-api: User login successful
+2026-09-15 00:03:06 [DEBUG] payment-gateway: Query executed in 12ms
+2026-09-15 00:03:09 [WARN] payment-gateway: Slow response time: 1200ms
+2026-09-15 00:03:15 [INFO] cache-worker: Cache refreshed
+2026-09-15 00:03:57 [DEBUG] db-connector: Retrying connection attempt
+2026-09-15 00:04:30 [INFO] payment-gateway: Scheduled job started
+2026-09-15 00:05:05 [INFO] auth-service: Connection established
+2026-09-15 00:05:50 [ERROR] payment-gateway: Failed to connect to database
+2026-09-15 00:06:11 [INFO] payment-gateway: Connection established
+2026-09-15 00:06:48 [WARN] db-connector: Connection pool nearing capacity
+2026-09-15 00:07:06 [ERROR] auth-service: Failed to connect to database
+2026-09-15 00:07:31 [INFO] scheduler: Health check passed
+2026-09-15 00:07:54 [ERROR] db-connector: Failed to connect to database
+2026-09-15 00:08:39 [INFO] scheduler: Cache refreshed
+2026-09-15 00:09:21 [ERROR] scheduler: Failed to connect to database
+2026-09-15 00:09:33 [ERROR] db-connector: Connection refused by remote host
+2026-09-15 00:09:48 [INFO] auth-service: Connection established
+2026-09-15 00:10:28 [WARN] payment-gateway: Slow response time: 1200ms
+2026-09-15 00:10:36 [INFO] scheduler: Request completed successfully
+2026-09-15 00:11:16 [DEBUG] scheduler: Processing request payload
+2026-09-15 00:11:57 [DEBUG] cache-worker: Cache lookup miss, fetching from DB
+2026-09-15 00:12:31 [INFO] auth-service: Cache refreshed
+2026-09-15 00:13:08 [INFO] payment-gateway: Cache refreshed
+2026-09-15 00:13:53 [WARN] user-api: Connection pool nearing capacity
+2026-09-15 00:14:36 [DEBUG] payment-gateway: Processing request payload
+2026-09-15 00:14:51 [INFO] db-connector: Scheduled job started
+2026-09-15 00:15:21 [WARN] user-api: Slow response time: 1200ms
+2026-09-15 00:15:53 [INFO] db-connector: Health check passed
+2026-09-15 00:15:55 [INFO] cache-worker: Scheduled job completed
+2026-09-15 00:16:39 [ERROR] cache-worker: Timeout while waiting for upstream service
+2026-09-15 00:16:49 [ERROR] scheduler: NullPointerException in request handler
+2026-09-15 00:16:54 [WARN] user-api: Deprecated API endpoint called
+2026-09-15 00:17:05 [ERROR] cache-worker: Error processing payment: gateway declined
+2026-09-15 00:17:46 [ERROR] user-api: Failed to authenticate user: invalid token
+2026-09-15 00:18:09 [WARN] db-connector: Slow response time: 1200ms
+2026-09-15 00:18:36 [WARN] auth-service: Connection pool nearing capacity
+2026-09-15 00:19:02 [DEBUG] auth-service: Retrying connection attempt
+2026-09-15 00:19:05 [DEBUG] db-connector: Processing request payload
+2026-09-15 00:19:08 [INFO] auth-service: Scheduled job started
+2026-09-15 00:19:33 [ERROR] db-connector: Error processing payment: gateway declined
+2026-09-15 00:19:42 [DEBUG] scheduler: Parsing configuration file
+2026-09-15 00:20:05 [INFO] payment-gateway: Cache refreshed
+2026-09-15 00:20:28 [INFO] user-api: User login successful
+2026-09-15 00:20:56 [INFO] payment-gateway: Health check passed
+2026-09-15 00:21:18 [INFO] db-connector: Scheduled job started
+2026-09-15 00:21:30 [ERROR] db-connector: NullPointerException in request handler
+2026-09-15 00:21:46 [DEBUG] cache-worker: Parsing configuration file
+2026-09-15 00:22:20 [INFO] payment-gateway: User login successful
+2026-09-15 00:22:25 [DEBUG] db-connector: Retrying connection attempt
+2026-09-15 00:22:55 [INFO] auth-service: Cache refreshed
+2026-09-15 00:22:58 [ERROR] auth-service: Failed to authenticate user: invalid token
+2026-09-15 00:23:17 [DEBUG] cache-worker: Retrying connection attempt
+2026-09-15 00:23:58 [ERROR] user-api: Timeout while waiting for upstream service
+2026-09-15 00:24:36 [INFO] payment-gateway: Scheduled job started
+2026-09-15 00:25:21 [DEBUG] db-connector: Retrying connection attempt
+2026-09-15 00:25:51 [ERROR] user-api: Failed to connect to database
+2026-09-15 00:26:08 [DEBUG] cache-worker: Processing request payload
+2026-09-15 00:26:17 [DEBUG] db-connector: Retrying connection attempt
+2026-09-15 00:27:00 [WARN] user-api: Connection pool nearing capacity
+2026-09-15 00:27:18 [DEBUG] user-api: Parsing configuration file
+2026-09-15 00:27:26 [INFO] user-api: Scheduled job completed
+2026-09-15 00:27:45 [INFO] user-api: Scheduled job started
+2026-09-15 00:28:11 [DEBUG] user-api: Cache lookup miss, fetching from DB
+2026-09-15 00:28:42 [WARN] cache-worker: Deprecated API endpoint called
+2026-09-15 00:28:51 [INFO] scheduler: User login successful
+2026-09-15 00:29:19 [INFO] payment-gateway: Session created
+2026-09-15 00:29:43 [INFO] user-api: User login successful
+2026-09-15 00:30:15 [ERROR] db-connector: Timeout while waiting for upstream service
+2026-09-15 00:30:45 [INFO] db-connector: Connection established
+2026-09-15 00:31:09 [ERROR] auth-service: Timeout while waiting for upstream service
+2026-09-15 00:31:26 [WARN] db-connector: Deprecated API endpoint called
+2026-09-15 00:31:28 [ERROR] user-api: NullPointerException in request handler
+2026-09-15 00:31:31 [INFO] scheduler: Connection established
+2026-09-15 00:31:51 [INFO] scheduler: Session created
+2026-09-15 00:32:34 [INFO] user-api: Session created
+2026-09-15 00:33:11 [INFO] db-connector: Connection established
+2026-09-15 00:33:52 [ERROR] user-api: Connection refused by remote host
+2026-09-15 00:34:01 [INFO] cache-worker: Health check passed
+2026-09-15 00:34:19 [WARN] cache-worker: Slow response time: 1200ms
+2026-09-15 00:34:50 [ERROR] user-api: Failed to authenticate user: invalid token
+2026-09-15 00:34:55 [ERROR] scheduler: Error processing payment: gateway declined
+2026-09-15 00:35:09 [INFO] db-connector: Session created
+2026-09-15 00:35:49 [DEBUG] user-api: Parsing configuration file
+2026-09-15 00:36:17 [WARN] payment-gateway: High memory usage detected
+2026-09-15 00:36:23 [INFO] cache-worker: Session created
+2026-09-15 00:36:37 [INFO] user-api: Connection established
+2026-09-15 00:36:49 [ERROR] user-api: NullPointerException in request handler
+2026-09-15 00:37:07 [INFO] cache-worker: Request completed successfully
+2026-09-15 00:37:32 [INFO] cache-worker: Cache refreshed
+2026-09-15 00:38:09 [INFO] payment-gateway: Health check passed
+2026-09-15 00:38:53 [WARN] auth-service: High memory usage detected
+2026-09-15 00:39:06 [DEBUG] auth-service: Cache lookup miss, fetching from DB
+2026-09-15 00:39:21 [INFO] scheduler: User login successful
+2026-09-15 00:40:05 [DEBUG] scheduler: Processing request payload
+2026-09-15 00:40:29 [INFO] db-connector: Session created
+2026-09-15 00:41:02 [INFO] payment-gateway: Scheduled job completed
